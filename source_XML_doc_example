@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <ROW>
+    <shortdate>01/01/2017</shortdate>
+    <longdate>Sunday 01 January 2017</longdate>
+    <opening>8am - Midnight</opening>
+    <staffed>9am - 9pm</staffed>
+    <notes></notes>
+  </ROW>
+  <ROW>
+    <shortdate>02/01/2017</shortdate>
+    <longdate>Monday 02 January 2017</longdate>
+    <opening>9am - Midnight</opening>
+    <staffed>9am - 5pm</staffed>
+    <notes></notes>
+  </ROW>
+</root>
