@@ -12,7 +12,10 @@ $( document ).ready(function() {
 	// to make sure it accurately reflects reality and update if it has just passed midnight
 	// Set this to an unrealistic day value (anything more than 0-6) used to detect if a midnight has passed further down
 	var DayDateOld=10;
-	var locofopeningdata ="https://www111.lamp.le.ac.uk/cors/openingtimes.xml";
+	// where you put your XML data source file (in a CORs compliant directory), e.g https://www111.lamp.ac.uk/corsdir/openingtimes.xml
+	// it doesnt hae to be https , that depends on you, best arrangement is to havethe file on a server that serves both http and https
+	// as the protocol has to match trhe protocol of the web page the app is on.
+	var locofopeningdata ="https://yourserver/cors/openingtimes.xml";
 	populateOpeningtimes();
 	var bleh = setInterval(populateOpeningtimes, 1000);
 
