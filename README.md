@@ -1,5 +1,7 @@
 # library-opentimes
-The Library opening times we know from stats is one of the the most popular pages on the website, second only to the search page. The opening times page is typically overly-wordy and takes time to decode, so providing this key information a the point of need seemed sensible. This code snippet can be repeated on any website anywhere any number of times, always referring back to the one golden source of data.
+The Library opening times we know from stats is one of the the most popular pages on the website, second only to the search page. The opening times page is typically overly-wordy and takes time to decode, so providing this key information at the point of need seemed sensible. 
+
+The advantage of this approach is this code snippet can be repeated on any website anywhere any number of times, always referring back to the one golden source of data. It quickly informs the user in a straightforward way what they need to know to plan their immediate activities.
 
 This is a JQuery code snippet that renders Library opening and staffing times pulled from a remote XML document on a CORs configured server.
 
