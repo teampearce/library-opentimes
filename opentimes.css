@@ -1,0 +1,163 @@
+/* Collection of css to display and present the opening times mechanism RCP 2017 */
+
+
+#openingtime {
+	color: #ffffcc;
+	margin-left: 40px;
+	text-align: center;
+	left: 0;
+	right: 0;
+	font-size: 0.8em;
+	/* to make sure the containing div doesnt sit on top of the div with the login links! - RCP 2106
+	position: relative;
+}
+
+
+
+#next7 {
+	font-family: Arial sans-serif;
+	color: #ffffcc;
+	cursor: pointer;
+	font-size: 1.3em;
+	vertical-align: sub;
+}
+
+
+div#nextweek {
+	border: 2px solid #00aedb;
+	border-radius: 5px;
+	padding: 10px;
+	max-width: 530px;
+	font-size: 0.85em;
+	background-color: #ffffe0;
+	z-index: 5000;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto     
+}
+
+
+.nextdays th, td, #nextdaystable th, td{
+    padding: 2px;
+    text-align: left;
+}
+
+
+
+/* optional responsive CSS to shrink the opening times mechanism RCP 2017 */
+
+
+@media screen and (max-width: 1599px) and (min-width: 900px) {
+
+#openingtime {
+	margin-left: 0px;
+		/* changed aug 2016 to improve mobile view - RCP 2106 */
+	font-size: 0.8em;
+	clear: both;
+	} 
+	
+div#nextweek {
+    	max-width: 500px;
+    	font-size: 0.9em;	
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 899px) and (min-width: 600px) {
+
+#openingtime {
+	font-size: 0.65em;
+	text-align: left;
+	clear: both;
+	}
+
+div#nextweek {
+	max-width: 350px;
+	font-size: 0.85em;	
+	}
+
+span.staffed {
+	white-space: nowrap;
+	}
+
+
+#lhsFacetButt, #rhsFacetButt {
+	display: none;
+	}
+
+
+#next7 {
+	font-family: Arial sans-serif;
+	font-size: 1.6em;
+	}
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 599px) and (min-width: 401px) {
+
+
+#topHolderEvents {
+	display: none;
+	}
+
+
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+
+#topHolderText {
+	margin-left: 20px;
+	float: right;
+}
+
+
+#topHolderEvents {
+    display: none;
+}
+
+
+#openingtime {
+	font-size: 0.65em;
+	text-align: left;
+	clear: both;
+}
+
+div#nextweek {
+	max-width: 350px;
+	font-size: 0.7em;	
+}
+
+#topHolderEvents {
+    display: none;
+}
+
+#lhsFacetButt, #rhsFacetButt {
+	display: none;
+}
+
+
+
+#next7 {
+	font-family: Arial sans-serif;
+	font-size: 2em;
+}
+
+
+}
+
+
